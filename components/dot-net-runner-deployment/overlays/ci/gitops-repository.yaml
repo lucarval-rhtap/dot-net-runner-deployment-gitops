@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: dot-net-runner-deployment-gitops-repository
+spec:
+  url: https://github.com/lucarval-rhtap/dot-net-runner-deployment-gitops
